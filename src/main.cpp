@@ -646,9 +646,10 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 96 * COIN; //ycoin
+    int64 nSubsidy = 1 * COIN; //ycoin
 
     // Subsidy is cut in half every 4 years
+	if (nHeight >= 1)
     nSubsidy >>= (nHeight / 210000);
 	
 	//Hard limit to 21M ycoins
@@ -1593,7 +1594,7 @@ bool LoadBlockIndex(bool fAllowNew)
 	
 	if (fTestNet)
     {
-        hashGenesisBlock = uint256("0x00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008");
+        hashGenesisBlock = uint256("0x");
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 28);
         pchMessageStart[0] = 0xfa;
         pchMessageStart[1] = 0xbf;
@@ -1625,7 +1626,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //   vMerkleTree: 4a5e1e
 
         // Genesis block
-        const char* pszTimestamp = "To see the farm is to leave it";
+        const char* pszTimestamp = "Traditionally one puts something timely here coinciding with the epoch";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -1637,22 +1638,22 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1304113447;  
+        block.nTime    = 0; //Mainnet  
         block.nBits    = 0x1d00ffff;
-        block.nNonce   = 2245271137; 
+        block.nNonce   = 0; //Mainnet 
 		
         if (fTestNet)
         {
-            block.nTime    = 1296688602;
+            block.nTime    = 0; //Testnet 
             block.nBits    = 0x1d07fff8;
-            block.nNonce   = 384568319;
+            block.nNonce   = 0; //Testnet
         }
 
         // debug print
         printf("block.getHash %s\n", block.GetHash().ToString().c_str());
         printf("hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
         printf("block.hashMerkleRoot %s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xcb3ae7b867c97ceb834c5d131355cd4bc176a44360fede9ed6d47b897397ba3f")); 
+        assert(block.hashMerkleRoot == uint256("0x")); 
         block.print();
         assert(block.GetHash() == hashGenesisBlock);
 
