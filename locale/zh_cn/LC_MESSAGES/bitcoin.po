@@ -1,0 +1,976 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-15 03:15+0100\n"
+"PO-Revision-Date: 2011-07-15 03:16+0100\n"
+"Last-Translator: John Galt <john@galt.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: zh_CN\n"
+"X-Source-Language: C\n"
+"X-Poedit-Bookmarks: 77,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../src/init.cpp:162
+msgid "ycoin version"
+msgstr "ycoin 版本"
+
+#: ../../../src/init.cpp:163
+msgid "Usage:"
+msgstr "用法:"
+
+#: ../../../src/init.cpp:165
+msgid "Send command to -server or ycoind\n"
+msgstr "发送命令给 -server 或 ycoin\n"
+
+#: ../../../src/init.cpp:166
+msgid "List commands\n"
+msgstr "列出命令\n"
+
+#: ../../../src/init.cpp:167
+msgid "Get help for a command\n"
+msgstr "获取命令的帮助\n"
+
+#: ../../../src/init.cpp:168
+msgid "Options:\n"
+msgstr "选项:\n"
+
+#: ../../../src/init.cpp:169
+msgid "Specify configuration file (default: ycoin.conf)\n"
+msgstr "指定配置文件 (默认: ycoin.conf)\n"
+
+#: ../../../src/init.cpp:170
+msgid "Specify pid file (default: ycoind.pid)\n"
+msgstr "指定 pid 文件 (默认: ycoin.pid)\n"
+
+#: ../../../src/init.cpp:171
+msgid "Generate coins\n"
+msgstr "生成货币\n"
+
+#: ../../../src/init.cpp:172
+msgid "Don't generate coins\n"
+msgstr "不要生成货币\n"
+
+#: ../../../src/init.cpp:173
+msgid "Start minimized\n"
+msgstr "启动时最小化\n"
+
+#: ../../../src/init.cpp:174
+msgid "Specify data directory\n"
+msgstr "指定数据目录\n"
+
+#: ../../../src/init.cpp:175
+msgid "Specify connection timeout (in milliseconds)\n"
+msgstr ""
+
+#: ../../../src/init.cpp:176
+msgid "Connect through socks4 proxy\n"
+msgstr "通过 socks4 代理连接\n"
+
+#: ../../../src/init.cpp:177
+msgid "Allow DNS lookups for addnode and connect\n"
+msgstr "允许 DNS 查找新增结点和连接\n"
+
+#: ../../../src/init.cpp:178
+msgid "Add a node to connect to\n"
+msgstr "添加一个连接结点\n"
+
+#: ../../../src/init.cpp:179
+msgid "Connect only to the specified node\n"
+msgstr "只连接特定结点\n"
+
+#: ../../../src/init.cpp:180
+msgid "Don't accept connections from outside\n"
+msgstr "不要接受外部传来的连接\n"
+
+#: ../../../src/init.cpp:183
+msgid "Don't attempt to use UPnP to map the listening port\n"
+msgstr "不要尝试使用 UPnP 映射监听端口\n"
+
+#: ../../../src/init.cpp:185
+msgid "Attempt to use UPnP to map the listening port\n"
+msgstr "尝试使用 UPnP 映射监听端口\n"
+
+#: ../../../src/init.cpp:188
+msgid "Fee per KB to add to transactions you send\n"
+msgstr "您为每 KB 支付所增加的交易佣金\n"
+
+#: ../../../src/init.cpp:190
+msgid "Accept command line and JSON-RPC commands\n"
+msgstr "允许命令行和 JSON-RPC 控制\n"
+
+#: ../../../src/init.cpp:193
+msgid "Run in the background as a daemon and accept commands\n"
+msgstr "在后台运行并接收命令\n"
+
+#: ../../../src/init.cpp:195
+msgid "Use the test network\n"
+msgstr "使用测试网络\n"
+
+#: ../../../src/init.cpp:196
+msgid "Username for JSON-RPC connections\n"
+msgstr "JSON-RPC 连接的用户名\n"
+
+#: ../../../src/init.cpp:197
+msgid "Password for JSON-RPC connections\n"
+msgstr "JSON-RPC 连接的密码\n"
+
+#: ../../../src/init.cpp:198
+#, fuzzy
+msgid "Listen for JSON-RPC connections on <port> (default: 8336)\n"
+msgstr "在端口 <port> 监听 JSON-RPC 连接 (默认: 8332)\n"
+
+#: ../../../src/init.cpp:199
+msgid "Allow JSON-RPC connections from specified IP address\n"
+msgstr "允许来自特定 IP 地址的 JSON-RPC 连接\n"
+
+#: ../../../src/init.cpp:200
+msgid "Send commands to node running on <ip> (default: 127.0.0.1)\n"
+msgstr "发送命令给运行的结点，IP 地址 <ip> (默认: 127.0.0.1)\n"
+
+#: ../../../src/init.cpp:201
+msgid "Set key pool size to <n> (default: 100)\n"
+msgstr "设置密钥池大小为 <n> (默认: 100)\n"
+
+#: ../../../src/init.cpp:202
+msgid "Rescan the block chain for missing wallet transactions\n"
+msgstr "重新扫描货币包链来检测丢失的货币交易\n"
+
+#: ../../../src/init.cpp:206
+#, fuzzy
+msgid ""
+"\n"
+"SSL options: (see the Bitcoin Wiki for SSL setup instructions)\n"
+msgstr ""
+"\n"
+"SSL 选项: (SSL 设置步骤请参见 ycoin Wiki)\n"
+
+#: ../../../src/init.cpp:207
+msgid "Use OpenSSL (https) for JSON-RPC connections\n"
+msgstr "使用 OpenSSL (https) 进行 JSON-RPC 连接\n"
+
+#: ../../../src/init.cpp:208
+msgid "Server certificate file (default: server.cert)\n"
+msgstr "服务器证书 (默认: server.cert)\n"
+
+#: ../../../src/init.cpp:209
+msgid "Server private key (default: server.pem)\n"
+msgstr "服务器私有密钥 (默认: server.pem)\n"
+
+#: ../../../src/init.cpp:210
+msgid "Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)\n"
+msgstr "许可密码 (默认: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)\n"
+
+#: ../../../src/init.cpp:214
+msgid "This help message\n"
+msgstr "本帮助信息\n"
+
+#: ../../../src/init.cpp:351
+#, c-format
+msgid "Cannot obtain a lock on data directory %s.  ycoin is probably already running."
+msgstr "无法获取数据目录 %s 的锁。 ycoin 可能已经启动。"
+
+#: ../../../src/init.cpp:377
+msgid "Error loading addr.dat      \n"
+msgstr "加载 addr.dat 出错      \n"
+
+#: ../../../src/init.cpp:383
+msgid "Error loading blkindex.dat      \n"
+msgstr "加载 blkindex.dat 出错      \n"
+
+#: ../../../src/init.cpp:391
+msgid "Error loading wallet.dat      \n"
+msgstr "加载 wallet.dat 出错      \n"
+
+#: ../../../src/init.cpp:481
+msgid "Invalid -proxy address"
+msgstr "无效 -proxy 地址"
+
+#: ../../../src/init.cpp:508
+msgid "Invalid amount for -paytxfee=<amount>"
+msgstr "无效的金额 -paytxfee=<amount>"
+
+#: ../../../src/init.cpp:512
+msgid "Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction."
+msgstr "警告: -paytxfee 设置得过高。 这个参数是您发送一笔交易要支付的佣金。"
+
+#: ../../../src/main.cpp:1427
+msgid "Warning: Disk space is low  "
+msgstr "警告: 磁盘空间不足"
+
+#: ../../../src/net.cpp:1564
+#, c-format
+msgid "Unable to bind to port %d on this computer.  ycoin is probably already running."
+msgstr "无法在这台电脑上绑定 %d 端口。 ycoin 可能已经在运行。"
+
+#: ../../../src/rpc.cpp:1939
+#: ../../../src/rpc.cpp:1941
+#, c-format
+msgid "To use the %s option"
+msgstr "使用 %s 选项"
+
+#: ../../../src/rpc.cpp:1943
+#, c-format
+msgid ""
+"Warning: %s, you must set rpcpassword=<password>\n"
+"in the configuration file: %s\n"
+"If the file does not exist, create it with owner-readable-only file permissions.\n"
+msgstr ""
+"警告: %s，您必须在配置文件中设置 rpcpassword=<password>\n"
+"配置文件为: %s\n"
+"如果文件不存在，请创建文件并只给创建者提供只读访问权限。\n"
+
+#: ../../../src/rpc.cpp:2116
+#, c-format
+msgid ""
+"You must set rpcpassword=<password> in the configuration file:\n"
+"%s\n"
+"If the file does not exist, create it with owner-readable-only file permissions."
+msgstr ""
+"您必须在配置文件中设置 rpcpassword=<password> :\n"
+"%s\n"
+"如果文件不存在，请创建文件并只给创建者提供只读访问权限。"
+
+#: ../../../src/ui.cpp:216
+#, c-format
+msgid "This transaction is over the size limit.  You can still send it for a fee of %s, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?"
+msgstr "这笔交易超过了大小限制。 您依然可以通过支付 %s 的佣金来进行，佣金用来支付为您的交易计算的结点来帮助支撑网络。 您是否要支付佣金?"
+
+#: ../../../src/ui.cpp:316
+msgid "Status"
+msgstr "状态"
+
+#: ../../../src/ui.cpp:317
+msgid "Date"
+msgstr "日期"
+
+#: ../../../src/ui.cpp:318
+msgid "Description"
+msgstr "描述"
+
+#: ../../../src/ui.cpp:319
+msgid "Debit"
+msgstr "付款人"
+
+#: ../../../src/ui.cpp:320
+msgid "Credit"
+msgstr "信用"
+
+#: ../../../src/ui.cpp:526
+#, c-format
+msgid "Open for %d blocks"
+msgstr "%d 个货币包开放"
+
+#: ../../../src/ui.cpp:528
+#, c-format
+msgid "Open until %s"
+msgstr "开放直到 %s"
+
+#: ../../../src/ui.cpp:534
+#, c-format
+msgid "%d/offline?"
+msgstr "%d/离线?"
+
+#: ../../../src/ui.cpp:536
+#, c-format
+msgid "%d/unconfirmed"
+msgstr "%d/未确认"
+
+#: ../../../src/ui.cpp:538
+#, c-format
+msgid "%d confirmations"
+msgstr "%d 确认"
+
+#: ../../../src/ui.cpp:623
+msgid "Generated"
+msgstr "已生成"
+
+#: ../../../src/ui.cpp:631
+#, c-format
+msgid "Generated (%s matures in %d more blocks)"
+msgstr "已生成 (%s 成熟 %d 新增货币包)"
+
+#: ../../../src/ui.cpp:635
+msgid "Generated - Warning: This block was not received by any other nodes and will probably not be accepted!"
+msgstr "已生成 - 警告: 这个货币包没有被任何其他结点收到，因此很可能不会被接受!"
+
+#: ../../../src/ui.cpp:639
+msgid "Generated (not accepted)"
+msgstr "已生成 (未被接受)"
+
+#: ../../../src/ui.cpp:649
+msgid "From: "
+msgstr "来自: "
+
+#: ../../../src/ui.cpp:673
+msgid "Received with: "
+msgstr "伴随接收: "
+
+#: ../../../src/ui.cpp:719
+msgid "Payment to yourself"
+msgstr "支付给您自己"
+
+#: ../../../src/ui.cpp:753
+msgid "To: "
+msgstr "到: "
+
+#: ../../../src/ui.cpp:1068
+msgid "    Generating"
+msgstr "    生成中"
+
+#: ../../../src/ui.cpp:1070
+msgid "(not connected)"
+msgstr "(未连接)"
+
+#: ../../../src/ui.cpp:1073
+#, c-format
+msgid "     %d connections     %d blocks     %d transactions"
+msgstr "     %d 个连接     %d 个货币包     %d 个交易 "
+
+#: ../../../src/ui.cpp:1178
+#: ../../../src/ui.cpp:2577
+msgid "New Receiving Address"
+msgstr "新建接收地址"
+
+#: ../../../src/ui.cpp:1179
+#: ../../../src/ui.cpp:2578
+msgid ""
+"You should use a new address for each payment you receive.\n"
+"\n"
+"Label"
+msgstr ""
+"您应该为您收到的每次付款使用不同的地址。\n"
+"\n"
+"标签"
+
+#: ../../../src/ui.cpp:1252
+msgid "<b>Status:</b> "
+msgstr "<b>状态:</b> "
+
+#: ../../../src/ui.cpp:1257
+msgid ", has not been successfully broadcast yet"
+msgstr "，尚未被成功广播"
+
+#: ../../../src/ui.cpp:1259
+#, c-format
+msgid ", broadcast through %d node"
+msgstr "，通过 %d 个结点广播"
+
+#: ../../../src/ui.cpp:1261
+#, c-format
+msgid ", broadcast through %d nodes"
+msgstr "，通过 %d 个结点广播"
+
+#: ../../../src/ui.cpp:1265
+msgid "<b>Date:</b> "
+msgstr "<b>日期:</b>"
+
+#: ../../../src/ui.cpp:1273
+msgid "<b>Source:</b> Generated<br>"
+msgstr "<b>来源:</b> 生成<br>"
+
+#: ../../../src/ui.cpp:1279
+#: ../../../src/ui.cpp:1297
+msgid "<b>From:</b> "
+msgstr "<b>从:</b> "
+
+#: ../../../src/ui.cpp:1297
+msgid "unknown"
+msgstr "未知"
+
+#: ../../../src/ui.cpp:1298
+#: ../../../src/ui.cpp:1322
+#: ../../../src/ui.cpp:1381
+msgid "<b>To:</b> "
+msgstr "<b>到:</b> "
+
+#: ../../../src/ui.cpp:1301
+msgid " (yours, label: "
+msgstr " (您的标签: "
+
+#: ../../../src/ui.cpp:1303
+msgid " (yours)"
+msgstr " (您的)"
+
+#: ../../../src/ui.cpp:1340
+#: ../../../src/ui.cpp:1352
+#: ../../../src/ui.cpp:1398
+#: ../../../src/ui.cpp:1415
+msgid "<b>Credit:</b> "
+msgstr "<b>信用:</b> "
+
+#: ../../../src/ui.cpp:1342
+#, c-format
+msgid "(%s matures in %d more blocks)"
+msgstr "(%s 收获在 %d 更多的货币包)"
+
+#: ../../../src/ui.cpp:1344
+msgid "(not accepted)"
+msgstr "(未被接受)"
+
+#: ../../../src/ui.cpp:1389
+#: ../../../src/ui.cpp:1397
+#: ../../../src/ui.cpp:1412
+msgid "<b>Debit:</b> "
+msgstr "<b>付款人:</b> "
+
+#: ../../../src/ui.cpp:1403
+msgid "<b>Transaction fee:</b> "
+msgstr "<b>交易佣金:</b> "
+
+#: ../../../src/ui.cpp:1419
+msgid "<b>Net amount:</b> "
+msgstr "<b>网络金额:</b> "
+
+#: ../../../src/ui.cpp:1426
+msgid "Message:"
+msgstr "消息:"
+
+#: ../../../src/ui.cpp:1428
+msgid "Comment:"
+msgstr "评论"
+
+#: ../../../src/ui.cpp:1431
+msgid "Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to \"not accepted\" and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours."
+msgstr "生成的货币必须等待 120 个货币包之后才能够使用。 当您生成了一个货币包后，它被广播给网络来加入货币包链中。 如果它无法加入货币包链中，他将会标记为\"不被接受\"且不能被支付。 这种情况可能因为在您生成这个货币包之后的几秒钟内有别人也生成了货币包而发生。"
+
+#: ../../../src/ui.cpp:1611
+msgid "Cannot write autostart/ycoin.desktop file"
+msgstr "无法写入 autostart/ycoin.desktop 文件"
+
+#: ../../../src/ui.cpp:1647
+msgid "Main"
+msgstr "主要"
+
+#: ../../../src/ui.cpp:1657
+msgid "&Start ycoin on window system startup"
+msgstr "开机自动启动 ycoin(&S)"
+
+#: ../../../src/ui.cpp:1664
+msgid "&Minimize on close"
+msgstr "关闭时最小化(&M)"
+
+#: ../../../src/ui.cpp:1806
+#, c-format
+msgid "version %s"
+msgstr "版本 %s"
+
+#: ../../../src/ui.cpp:1929
+msgid "Error in amount  "
+msgstr "金额有误  "
+
+#: ../../../src/ui.cpp:1929
+#: ../../../src/ui.cpp:1934
+#: ../../../src/ui.cpp:1939
+#: ../../../src/ui.cpp:1974
+#: ../../../src/uibase.cpp:55
+msgid "Send Coins"
+msgstr "发送货币"
+
+#: ../../../src/ui.cpp:1934
+msgid "Amount exceeds your balance  "
+msgstr "金额超出您的账户余额"
+
+#: ../../../src/ui.cpp:1939
+msgid "Total exceeds your balance when the "
+msgstr "总费用超出您的账户余额当 "
+
+#: ../../../src/ui.cpp:1939
+msgid " transaction fee is included  "
+msgstr " 交易佣金已包括"
+
+#: ../../../src/ui.cpp:1957
+msgid "Payment sent  "
+msgstr "付款已发送"
+
+#: ../../../src/ui.cpp:1957
+#: ../../../src/ui.cpp:1962
+#: ../../../src/ui.cpp:2108
+#: ../../../src/ui.cpp:2261
+#: ../../../src/wallet.cpp:917
+msgid "Sending..."
+msgstr "正在发送..."
+
+#: ../../../src/ui.cpp:1974
+msgid "Invalid address  "
+msgstr "无效地址  "
+
+#: ../../../src/ui.cpp:2029
+#, c-format
+msgid "Sending %s to %s"
+msgstr "发送 %s 给 %s"
+
+#: ../../../src/ui.cpp:2102
+#: ../../../src/ui.cpp:2135
+msgid "CANCELLED"
+msgstr "已取消"
+
+#: ../../../src/ui.cpp:2106
+msgid "Cancelled"
+msgstr "已取消"
+
+#: ../../../src/ui.cpp:2108
+msgid "Transfer cancelled  "
+msgstr "传输已取消  "
+
+#: ../../../src/ui.cpp:2161
+msgid "Error: "
+msgstr "错误: "
+
+#: ../../../src/ui.cpp:2175
+#: ../../../src/ui.cpp:2246
+#: ../../../src/wallet.cpp:936
+msgid "Insufficient funds"
+msgstr "余额不足"
+
+#: ../../../src/ui.cpp:2180
+msgid "Connecting..."
+msgstr "正在连接..."
+
+#: ../../../src/ui.cpp:2185
+msgid "Unable to connect"
+msgstr "无法连接"
+
+#: ../../../src/ui.cpp:2190
+msgid "Requesting public key..."
+msgstr "正在请求公共密钥..."
+
+#: ../../../src/ui.cpp:2202
+msgid "Received public key..."
+msgstr "收到公共密钥..."
+
+#: ../../../src/ui.cpp:2216
+msgid "Recipient is not accepting transactions sent by IP address"
+msgstr "收款人不接受来自 IP 地址的交易"
+
+#: ../../../src/ui.cpp:2218
+msgid "Transfer was not accepted"
+msgstr "传输没有被接受"
+
+#: ../../../src/ui.cpp:2227
+msgid "Invalid response received"
+msgstr "接收到无效回复"
+
+#: ../../../src/ui.cpp:2242
+msgid "Creating transaction..."
+msgstr "正在创建交易..."
+
+#: ../../../src/ui.cpp:2254
+#, c-format
+msgid "This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds"
+msgstr "这笔交易因为它最近收到的付款的数量，交易难度或者使用情况，需要至少 %s 交易佣金"
+
+#: ../../../src/ui.cpp:2256
+msgid "Transaction creation failed"
+msgstr "交易创建失败"
+
+#: ../../../src/ui.cpp:2263
+msgid "Transaction aborted"
+msgstr "交易中止"
+
+#: ../../../src/ui.cpp:2271
+msgid "Lost connection, transaction cancelled"
+msgstr "失去连接，交易已取消"
+
+#: ../../../src/ui.cpp:2287
+msgid "Sending payment..."
+msgstr "正在发送付款..."
+
+#: ../../../src/ui.cpp:2293
+msgid "The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here."
+msgstr "交易被拒绝。 这可能是因为您账户中的一部分货币已经被使用，比如您使用了一个复制的 wallet.dat 文件，而且货币在另一个副本里使用但没有在这里标记。"
+
+#: ../../../src/ui.cpp:2302
+msgid "Waiting for confirmation..."
+msgstr "正在等待确认..."
+
+#: ../../../src/ui.cpp:2320
+msgid ""
+"The payment was sent, but the recipient was unable to verify it.\n"
+"The transaction is recorded and will credit to the recipient,\n"
+"but the comment information will be blank."
+msgstr ""
+"付款已发送，但是收款人无法进行确认。\n"
+"交易已经被记录，并且支付给收款人，\n"
+"但是评论信息可能是空的。"
+
+#: ../../../src/ui.cpp:2329
+msgid "Payment was sent, but an invalid response was received"
+msgstr "支付已发送，但是收到无效回复"
+
+#: ../../../src/ui.cpp:2335
+msgid "Payment completed"
+msgstr "付款完成"
+
+#: ../../../src/ui.cpp:2377
+#: ../../../src/ui.cpp:2525
+#: ../../../src/ui.cpp:2565
+msgid "Name"
+msgstr "姓名"
+
+#: ../../../src/ui.cpp:2378
+#: ../../../src/ui.cpp:2525
+#: ../../../src/ui.cpp:2565
+msgid "Address"
+msgstr "地址"
+
+#: ../../../src/ui.cpp:2380
+#: ../../../src/ui.cpp:2537
+msgid "Label"
+msgstr "标签"
+
+#: ../../../src/ui.cpp:2381
+#: ../../../src/uibase.cpp:837
+msgid "ycoin Address"
+msgstr "ycoin 地址"
+
+#: ../../../src/ui.cpp:2507
+msgid "This is one of your own addresses for receiving payments and cannot be entered in the address book.  "
+msgstr "这是您拥有的接收付款的地址之一，它不能够进入这个地址簿。 "
+
+#: ../../../src/ui.cpp:2525
+#: ../../../src/ui.cpp:2531
+msgid "Edit Address"
+msgstr "编辑地址"
+
+#: ../../../src/ui.cpp:2537
+msgid "Edit Address Label"
+msgstr "编辑地址标签"
+
+#: ../../../src/ui.cpp:2565
+#: ../../../src/ui.cpp:2571
+msgid "Add Address"
+msgstr "添加地址"
+
+#: ../../../src/ui.cpp:2649
+msgid "ycoin"
+msgstr "ycoin"
+
+#: ../../../src/ui.cpp:2651
+msgid "ycoin - Generating"
+msgstr "ycoin - 生成中"
+
+#: ../../../src/ui.cpp:2653
+msgid "ycoin - (not connected)"
+msgstr "ycoin - (未连接)"
+
+#: ../../../src/ui.cpp:2732
+msgid "&Open ycoin"
+msgstr "打开 ycoin(&O)"
+
+#: ../../../src/ui.cpp:2733
+msgid "&Send ycoins"
+msgstr "发送 ycoins(&S)"
+
+#: ../../../src/ui.cpp:2734
+msgid "O&ptions..."
+msgstr "选项(&P)..."
+
+#: ../../../src/ui.cpp:2737
+#: ../../../src/uibase.cpp:25
+msgid "E&xit"
+msgstr "退出(&X)"
+
+#: ../../../src/ui.cpp:2963
+msgid "Program has crashed and will terminate.  "
+msgstr "程序崩溃，即将关闭。 "
+
+#: ../../../src/uibase.cpp:28
+msgid "&File"
+msgstr "文件(&F)"
+
+#: ../../../src/uibase.cpp:32
+msgid "&Your Receiving Addresses..."
+msgstr "您的接收地址(&Y)..."
+
+#: ../../../src/uibase.cpp:36
+msgid "&Options..."
+msgstr "选项(&O)..."
+
+#: ../../../src/uibase.cpp:39
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: ../../../src/uibase.cpp:43
+msgid "&About..."
+msgstr "关于(&A)..."
+
+#: ../../../src/uibase.cpp:46
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: ../../../src/uibase.cpp:56
+msgid "Address Book"
+msgstr "地址簿"
+
+#: ../../../src/uibase.cpp:69
+msgid "Your ycoin Address:"
+msgstr "您的 ycoin 地址:"
+
+#: ../../../src/uibase.cpp:76
+msgid " &New... "
+msgstr " 新建(&N)... "
+
+#: ../../../src/uibase.cpp:79
+#: ../../../src/uibase.cpp:780
+#: ../../../src/uibase.cpp:883
+msgid " &Copy to Clipboard "
+msgstr " 复制到剪贴板(&C)"
+
+#: ../../../src/uibase.cpp:93
+msgid "Balance:"
+msgstr "账户余额:"
+
+#: ../../../src/uibase.cpp:109
+msgid " All"
+msgstr "全部"
+
+#: ../../../src/uibase.cpp:109
+msgid " Sent"
+msgstr " 已发送"
+
+#: ../../../src/uibase.cpp:109
+msgid " Received"
+msgstr " 已接收"
+
+#: ../../../src/uibase.cpp:109
+msgid " In Progress"
+msgstr "处理中"
+
+#: ../../../src/uibase.cpp:130
+msgid "All Transactions"
+msgstr "所有交易"
+
+#: ../../../src/uibase.cpp:141
+msgid "Sent/Received"
+msgstr "已发送/已接收"
+
+#: ../../../src/uibase.cpp:152
+msgid "Sent"
+msgstr "已发送"
+
+#: ../../../src/uibase.cpp:163
+msgid "Received"
+msgstr "已接收"
+
+#: ../../../src/uibase.cpp:302
+#: ../../../src/uibase.cpp:443
+#: ../../../src/uibase.cpp:542
+#: ../../../src/uibase.cpp:722
+#: ../../../src/uibase.cpp:783
+#: ../../../src/uibase.cpp:892
+#: ../../../src/uibase.cpp:981
+msgid "OK"
+msgstr "确定"
+
+#: ../../../src/uibase.cpp:345
+msgid "&Start ycoin on system startup"
+msgstr "开机自动启动(&S)"
+
+#: ../../../src/uibase.cpp:348
+msgid "&Minimize to the tray instead of the taskbar"
+msgstr "最小化到系统托盘(&M)"
+
+#: ../../../src/uibase.cpp:351
+msgid "Map port using &UPnP"
+msgstr "使用 &UPnP 映射端口"
+
+#: ../../../src/uibase.cpp:354
+msgid "M&inimize to the tray on close"
+msgstr "关闭时最小化到托盘(&I)"
+
+#: ../../../src/uibase.cpp:360
+msgid "&Connect through socks4 proxy: "
+msgstr "通过 socks4 代理连接(&C): "
+
+#: ../../../src/uibase.cpp:371
+msgid "Proxy &IP:"
+msgstr "代理服务器(&I):"
+
+#: ../../../src/uibase.cpp:379
+msgid " &Port:"
+msgstr " 端口(&P):"
+
+#: ../../../src/uibase.cpp:392
+msgid "Optional transaction fee per KB that helps make sure your transactions are processed quickly.  Most transactions are 1KB.  Fee 0.01 recommended."
+msgstr "可以选择按照KB支付交易佣金来确保您的交易得到迅速处理。 大多数交易需要 1KB。 建议支付 0.01。"
+
+#: ../../../src/uibase.cpp:399
+msgid "Pay transaction fee:"
+msgstr "支付交易佣金:"
+
+#: ../../../src/uibase.cpp:420
+msgid "// [don't translate] Test panel 2 for future expansion"
+msgstr ""
+
+#: ../../../src/uibase.cpp:424
+msgid "// [don't translate] Let's not start multiple pages until the first page is filled up"
+msgstr ""
+
+#: ../../../src/uibase.cpp:446
+#: ../../../src/uibase.cpp:668
+#: ../../../src/uibase.cpp:727
+#: ../../../src/uibase.cpp:786
+#: ../../../src/uibase.cpp:895
+#: ../../../src/uibase.cpp:984
+msgid "Cancel"
+msgstr "取消"
+
+#: ../../../src/uibase.cpp:449
+msgid "&Apply"
+msgstr "应用(&A)"
+
+#: ../../../src/uibase.cpp:508
+msgid "ycoin "
+msgstr "ycoin "
+
+#: ../../../src/uibase.cpp:514
+msgid "version"
+msgstr "版本"
+
+#: ../../../src/uibase.cpp:525
+#, fuzzy
+msgid ""
+"Copyright (c) 2011 ycoin Developers\n"
+"\n"
+"This is experimental software based on Bitcoin.org.\n"
+"\n"
+"Distributed under the MIT/X11 software license, see the accompanying file \n"
+"license.txt or http://www.opensource.org/licenses/mit-license.php.\n"
+"\n"
+"This product includes software developed by the OpenSSL Project for use in the \n"
+"OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by \n"
+"Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard."
+msgstr ""
+"版权所有 (c) 2009-2010 ycoin 开发人员\n"
+"这是一个实验软件。\n"
+"分发遵循 MIT/X11 软件许可协议，请参见附带的 license.txt 文件或访问\n"
+"http://www.opensource.org/licenses/mit-license.php。\n"
+"本产品使用了 OpenSSL Project 开发的 OpenSSL Toolkit\n"
+"(http://www.openssl.org/)，以及 Eric Young(eay@cryptsoft.com)\n"
+"编写的加密软件和 Thomas Bernard 编写的 UPnP 软件。"
+
+#: ../../../src/uibase.cpp:581
+msgid "Enter a ycoin address (e.g. xnS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)"
+msgstr "输入 ycoin 地址 (比如 xnS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)"
+
+#: ../../../src/uibase.cpp:595
+msgid "Pay &To:"
+msgstr "付款给(&T):"
+
+#: ../../../src/uibase.cpp:610
+msgid "&Paste"
+msgstr "粘贴(&P)"
+
+#: ../../../src/uibase.cpp:613
+msgid " Address &Book..."
+msgstr " 地址簿(&B)..."
+
+#: ../../../src/uibase.cpp:620
+msgid "&Amount:"
+msgstr "数量(&A):"
+
+#: ../../../src/uibase.cpp:630
+msgid "T&ransfer:"
+msgstr "传输(&R):"
+
+#: ../../../src/uibase.cpp:636
+msgid " Standard"
+msgstr "标准"
+
+#: ../../../src/uibase.cpp:663
+msgid "&Send"
+msgstr "发送(&S)"
+
+#: ../../../src/uibase.cpp:711
+msgid ""
+"\n"
+"\n"
+"Connecting..."
+msgstr ""
+"\n"
+"\n"
+"正在连接..."
+
+#: ../../../src/uibase.cpp:761
+msgid "These are your ycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.  The highlighted address is displayed in the main window."
+msgstr "这些是您用来接收付款的 ycoin 地址。 您可能需要给每一个付款人一个不同的地址从而可以最终每一笔交易是谁支付的。 下面高亮的地址是您的主窗口正在使用的地址。"
+
+#: ../../../src/uibase.cpp:774
+#: ../../../src/uibase.cpp:886
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: ../../../src/uibase.cpp:777
+#: ../../../src/uibase.cpp:889
+msgid " &New Address... "
+msgstr " 新建地址(&N)..."
+
+#: ../../../src/uibase.cpp:849
+msgid "Sending"
+msgstr "发送人地址"
+
+#: ../../../src/uibase.cpp:857
+msgid "These are your ycoin addresses for receiving payments.  You can give a different one to each sender to keep track of who is paying you.  The highlighted address will be displayed in the main window."
+msgstr "这些是您用来接收付款的 ycoin 地址。 您可以给每一个付款人一个不同的地址从而可以最终每一笔交易是谁支付的。 下面高亮的地址是您的主窗口正在使用的地址。"
+
+#: ../../../src/uibase.cpp:870
+msgid "Receiving"
+msgstr "我的接收地址"
+
+#: ../../../src/uibase.cpp:880
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: ../../../src/util.cpp:867
+msgid "Warning: Please check that your computer's date and time are correct.  If your clock is wrong ycoin will not work properly."
+msgstr "警告: 请检查您的电脑日期和时间是否正确。 如果您的时钟不正确 ycoin 将无法正常工作。"
+
+#: ../../../src/util.cpp:901
+msgid "beta"
+msgstr "测试版"
+
+#: ../../../src/wallet.cpp:910
+#, c-format
+msgid "Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  "
+msgstr "错误: 这个交易因为近期收到支付的数量，难度或者使用而需要支付至少 %s 交易佣金 "
+
+#: ../../../src/wallet.cpp:912
+msgid "Error: Transaction creation failed  "
+msgstr "错误: 交易创建失败"
+
+#: ../../../src/wallet.cpp:921
+msgid "Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here."
+msgstr "错误: 交易被拒绝。 这可能是因为您账户里的一些货币应经被使用，比如您使用了一个复制的 wallet.dat 文件，一些货币在另一个复件里支付了但是没有在这里更新。"
+
+#: ../../../src/wallet.cpp:934
+msgid "Invalid amount"
+msgstr "无效金额"
+
+#: ../../../src/wallet.cpp:941
+#, fuzzy
+msgid "Invalid bitcoin address"
+msgstr "无效 ycoin 地址"
+
+#: ../../../src/uibase.h:147
+msgid "Transaction Details"
+msgstr "交易详情"
+
+#: ../../../src/uibase.h:199
+msgid "Options"
+msgstr "选项"
+
+#: ../../../src/uibase.h:228
+msgid "About ycoin"
+msgstr "关于 ycoin"
+
+#: ../../../src/uibase.h:337
+msgid "Your ycoin Addresses"
+msgstr "您的 ycoin 地址"
+
